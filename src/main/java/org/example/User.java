@@ -42,7 +42,6 @@ public class User {
         try {
             String userInput = buffer.readLine(); // Читаем ввод пользователя
 
-            // Определяем формат
             SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
             formatter.setLenient(false); // Строгая проверка формата
 
